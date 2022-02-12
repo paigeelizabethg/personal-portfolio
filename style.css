@@ -1,32 +1,47 @@
-.dirt {
-  background-color: brown;
+.dirt,
+.roots,
+.grass,
+.hero {
   padding: 25px 25px !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+.roots,
+.grass,
+.hero {
+border-radius: 20px;
+}
+
+.dirt {
+  background-image: url(./images/marta-pawlik-Wr2Ss0fdeWU-unsplash.jpg);
 }
 
 .roots {
-  background-color: beige;
-  padding: 25px 25px !important;
+  background-image: url(./images/camille-brodard-peOp2E3Zukk-unsplash.jpg);
 }
 
 .grass {
-  background-color: green;
-  padding: 25px 25px !important;
+  background-image: url(./images/jake-nackos-C2PCa6DhlYE-unsplash.jpg);
 }
 
 .hero {
   background-color: white;
-  padding: 0 25px !important;
-  padding-top: 25px !important;
   text-align: center;
-  height: calc(100vh - 75px);
+  height: calc(100vh - 150px);
+  padding-bottom: 0 !important;
+
 }
 
 .hero h1,
 .hero h3 {
   word-spacing: 30px;
   letter-spacing: 10px;
+}
 
+.hero h3 {
+  padding-top: 50px;
 }
 
 .clear {
@@ -49,13 +64,54 @@
 #navbars {
   width: 100%;
   padding-left: 150px;
+  padding-right: 25px;
 }
 
-.stems {
-  margin-top: 100px;
+.project-stems {
+  height: 100px;
+  width: 40px;
+  border-right: 2px solid black;
+  margin-bottom: -117px;
 }
 
-#flowers {
-  position: relative;
-  margin-top: -150px;
+.social-stems {
+  height: 175px;
+  width: 25px;
+  border-right: 2px solid black;
+  margin-bottom: -17px;
+}
+
+.fab {
+  font-size: 50px;
+}
+
+.thumbnail {
+  padding-top: calc(3 / 4 * 100%);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.tourluxe-home {
+  background-image: url(./images/tourluxe-home.png);
+}
+
+.tourluxe-about {
+  background-image: url(./images/tourluxe-about-us.png);
+}
+
+.tourluxe-bali {
+  background-image: url(./images/tourluxe-about-bali.png);
+}
+
+.kuno-home {
+  background-image: url(https://picsum.photos/500/500);
+}
+
+.kuno-about {
+  background-image: url(https://picsum.photos/500/499);
+}
+
+.kuno-events {
+  background-image: url(https://picsum.photos/500/498);
 }
