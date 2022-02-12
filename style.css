@@ -1,15 +1,35 @@
 .dirt {
   background-color: brown;
+  padding: 25px 25px !important;
+
 }
 
 .roots {
   background-color: beige;
+  padding: 25px 25px !important;
 }
 
 .plants {
   background-color: green;
+  padding: 25px 25px !important;
 }
 
 .hero {
   background-color: white;
+  padding: 0 25px !important;
+  padding-top: 25px !important;
+  text-align: center;
+  height: calc(100vh - 75px);
+}
+
+.hero h1,
+.hero h3 {
+  word-spacing: 30px;
+  letter-spacing: 10px;
+
+}
+
+.clear {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
 }
