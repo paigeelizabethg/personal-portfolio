@@ -9,7 +9,7 @@
   padding: 25px 25px !important;
 }
 
-.plants {
+.grass {
   background-color: green;
   padding: 25px 25px !important;
 }
@@ -32,4 +32,30 @@
 .clear {
   padding-left: 25px !important;
   padding-right: 25px !important;
+}
+
+#hero-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-row {
+  height: 100%;
+}
+
+#navbars {
+  width: 100%;
+  padding-left: 150px;
+}
+
+.stems {
+  margin-top: 100px;
+}
+
+#flowers {
+  position: relative;
+  margin-top: -150px;
 }
