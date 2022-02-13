@@ -29,29 +29,26 @@
               <nav class="navbar navbar-expand-md navbar-light">
                 <div class="container-fluid">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span id="proj-btn">Projects</span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#tourluxe-proj">
-                          <h4 id="tourluxe-flower">Project<br><small>TourLuxe Bali</small></h4>
+                          <h4 id="tourluxe-flower"><span class="d-none d-md-block">Project</span><small>TourLuxe Bali</small></h4>
                           <div class="stems" id="tourluxe-stem"></div>
                         </a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#kuno-proj">
-                          <h4 id="kuno-flower">Project<br><small>Kuno</small></h4>
+                          <h4 id="kuno-flower"><span class="d-none d-md-block">Project</span><small>Kuno</small></h4>
                           <div class="stems" id="kuno-stem"></div>
                         </a>
                       </li>
                     </ul>
                   </div>
                   <div id="flowers">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="social">
                       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                           <a class="nav-link active" aria-current="page" href="https://www.linkedin.com/in/paige-green-purba-5b659724" target="_blank">
@@ -82,7 +79,7 @@
             <div class="row">
               <div class="col-12" id="tourluxe-proj">
                 <h5 class="text-white project-head">TourLuxe Bali</h5>
-                <div class="row align-items-center ms-5 me-5">
+                <div class="row align-items-center ms-5 me-5 d-none d-md-flex">
                   <div class="col-lg-6">
                     <div class="thumbnail tourluxe-home"></div>
                   </div>
@@ -106,6 +103,17 @@
                     </div>
                   </div>
                 </div>
+                <div class="row d-md-none flex-nowrap overflow-scroll">
+                  <div class="col-11">
+                    <div class="thumbnail tourluxe-home"></div>
+                  </div>
+                  <div class="col-11">
+                    <div class="thumbnail tourluxe-about"></div>
+                  </div>
+                  <div class="col-11">
+                    <div class="thumbnail tourluxe-bali"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -116,7 +124,7 @@
             <div class="row">
               <div class="col-12" id="kuno-proj">
                 <h5 class="text-white project-head">Kuno</h5>
-                <div class="row align-items-center ms-5 me-5">
+                <div class="row align-items-center ms-5 me-5 d-none d-md-flex">
                   <div class="col-md-12 col-lg-6">
                     <div class="row">
                       <div class="col-lg-2 d-none d-lg-flex"></div>
@@ -138,6 +146,17 @@
                   </div>
                   <div class="col-12 col-lg-6">
                     <div class="thumbnail kuno-home"></div>
+                  </div>
+                </div>
+                <div class="row d-md-none flex-nowrap overflow-scroll">
+                  <div class="col-11">
+                    <div class="thumbnail kuno-home"></div>
+                  </div>
+                  <div class="col-11">
+                    <div class="thumbnail kuno-about"></div>
+                  </div>
+                  <div class="col-11">
+                    <div class="thumbnail kuno-events"></div>
                   </div>
                 </div>
               </div>
