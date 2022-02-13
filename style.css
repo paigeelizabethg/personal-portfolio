@@ -15,7 +15,7 @@ body div {
   font-family: summary-notes;
 }
 
-.roots,
+.dirt,
 .grass,
 .hero {
   padding: 15px 15px !important;
@@ -24,30 +24,25 @@ body div {
   background-repeat: no-repeat;
 }
 
-.grass,
 .hero {
 border-radius: 20px;
 }
 
 .dirt {
   background-image: url(./images/marta-pawlik-Wr2Ss0fdeWU-unsplash.jpg);
-  height: 300vh;
-}
-
-.roots {
-  background-image: url(./images/marta-pawlik-Wr2Ss0fdeWU-unsplash.jpg);
-
+  height: 110vh;
 }
 
 .grass {
   background-image: url(./images/jake-nackos-C2PCa6DhlYE-unsplash.jpg);
+  height: 200vh
 
 }
 
 .hero {
   background-color: white;
   text-align: center;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 30px);
 }
 
 .hero h1,
@@ -61,25 +56,12 @@ border-radius: 20px;
   padding-top: 50px;
 }
 
-.clear {
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-}
-
 .hero-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   height: 100%;
-}
-
-.hero-row {
-  height: 100%;
-}
-
-.fab {
-  font-size: 50px;
 }
 
 .thumbnail {
@@ -123,55 +105,27 @@ border-radius: 20px;
 
 /* flowers */
 
-#tourluxe-flower,
-#kuno-flower {
-  padding: 20px 20px;
-  border-radius: 100px;
-  width: 120px;
-}
-#tourluxe-flower {
-  border: 5px solid orange;
-  background-color: rgb(255,215,0, 0.2);
-  margin-top: 25px;
-}
-
-#kuno-flower {
-  border: 5px solid blue;
-  background-color: rgb(0,0,255,0.2);
-  margin-top: 100px;
-}
-
-.nav-item {
-  align-items: flex-end;
-}
-
-.linkedin-stem {
-  height: 250px;
-}
 
 #navbars {
   width: 100%;
   padding-left: 150px;
   padding-right: 25px;
+  position: absolute;
+  bottom: 0;
 }
 
-.project-stems {
+.fab {
+  font-size: 100px;
+}
+
+.stems {
   width: 60px;
+  height: 300px;
   border-right: 2px solid black;
   position: absolute;
+  bottom: -15px;
 }
 
-#tourluxe-stem {
-  height: 150px;
-}
-
-#kuno-stem {
-  height: 100px;
-}
-
-.social-stems {
-  height: 175px;
-  width: 25px;
-  border-right: 2px solid black;
-
+.fa-linkedin {
+  margin-bottom: 200px;
 }
