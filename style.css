@@ -1,14 +1,29 @@
-.dirt,
+@font-face {
+  font-family: 'summary-notes';
+  src: url('./font/summary/SummaryNotes-Regular.eot');
+  src: url('./font/summary/SummaryNotes-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./font/summary/SummaryNotes-Regular.woff2') format('woff2'),
+      url('./font/summary/SummaryNotes-Regular.woff') format('woff'),
+      url('./font/summary/SummaryNotes-Regular.ttf') format('truetype'),
+      url('./font/summary/SummaryNotes-Regular.svg#SummaryNotes-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body div {
+  font-family: summary-notes;
+}
+
 .roots,
 .grass,
 .hero {
-  padding: 25px 25px !important;
+  padding: 15px 15px !important;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.roots,
 .grass,
 .hero {
 border-radius: 20px;
@@ -16,28 +31,30 @@ border-radius: 20px;
 
 .dirt {
   background-image: url(./images/marta-pawlik-Wr2Ss0fdeWU-unsplash.jpg);
+  height: 300vh;
 }
 
 .roots {
-  background-image: url(./images/camille-brodard-peOp2E3Zukk-unsplash.jpg);
+  background-image: url(./images/marta-pawlik-Wr2Ss0fdeWU-unsplash.jpg);
+
 }
 
 .grass {
   background-image: url(./images/jake-nackos-C2PCa6DhlYE-unsplash.jpg);
+
 }
 
 .hero {
   background-color: white;
   text-align: center;
-  height: calc(100vh - 150px);
-  padding-bottom: 0 !important;
-
+  height: calc(100vh - 60px);
 }
 
 .hero h1,
 .hero h3 {
   word-spacing: 30px;
   letter-spacing: 10px;
+  color: black;
 }
 
 .hero h3 {
@@ -49,36 +66,16 @@ border-radius: 20px;
   padding-right: 25px !important;
 }
 
-#hero-content {
-  height: 100%;
+.hero-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 
 .hero-row {
   height: 100%;
-}
-
-#navbars {
-  width: 100%;
-  padding-left: 150px;
-  padding-right: 25px;
-}
-
-.project-stems {
-  height: 100px;
-  width: 40px;
-  border-right: 2px solid black;
-  margin-bottom: -117px;
-}
-
-.social-stems {
-  height: 175px;
-  width: 25px;
-  border-right: 2px solid black;
-  margin-bottom: -17px;
 }
 
 .fab {
@@ -86,10 +83,11 @@ border-radius: 20px;
 }
 
 .thumbnail {
-  padding-top: calc(3 / 4 * 100%);
+  padding-top: calc(1.2 / 2 * 100%);
   background-size: cover;
   background-position: center;
   border-radius: 20px;
+  margin-bottom: 50px;
 }
 
 .tourluxe-home {
@@ -113,5 +111,67 @@ border-radius: 20px;
 }
 
 .kuno-events {
-  background-image: url(https://picsum.photos/500/498);
+  background-image: url(https://picsum.photos/500/501);
+}
+
+.project-head {
+  margin: 50px 0;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+/* flowers */
+
+#tourluxe-flower,
+#kuno-flower {
+  padding: 20px 20px;
+  border-radius: 100px;
+  width: 120px;
+}
+#tourluxe-flower {
+  border: 5px solid orange;
+  background-color: rgb(255,215,0, 0.2);
+  margin-top: 25px;
+}
+
+#kuno-flower {
+  border: 5px solid blue;
+  background-color: rgb(0,0,255,0.2);
+  margin-top: 100px;
+}
+
+.nav-item {
+  align-items: flex-end;
+}
+
+.linkedin-stem {
+  height: 250px;
+}
+
+#navbars {
+  width: 100%;
+  padding-left: 150px;
+  padding-right: 25px;
+}
+
+.project-stems {
+  width: 60px;
+  border-right: 2px solid black;
+  position: absolute;
+}
+
+#tourluxe-stem {
+  height: 150px;
+}
+
+#kuno-stem {
+  height: 100px;
+}
+
+.social-stems {
+  height: 175px;
+  width: 25px;
+  border-right: 2px solid black;
+
 }
