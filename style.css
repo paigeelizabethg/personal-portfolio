@@ -17,7 +17,7 @@ body div {
 
 .dirt,
 .grass,
-.hero {
+.hero{
   padding: 15px 15px !important;
   background-position: center;
   background-size: cover;
@@ -27,7 +27,7 @@ body div {
 .hero {
   border-radius: 20px;
   background-image: linear-gradient(to bottom, #e6f9ff, #f7fdff, #FFFFFF);
-  height: calc(100vh - 30px);
+  min-height: calc(100vh - 30px);
   text-align: center;
   justify-content: space-between;
   }
@@ -106,54 +106,42 @@ body div {
   font-size: 35px;
 }
 
-.fab,
-.far,
-.stems {
-  position: absolute;
-}
-
-.fab,
-.far {
-  font-size: 80px;
+.flowers {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 70px;
+  margin-bottom: -15px;
+  min-height: calc(100vh - 445px);
 }
 
 .stems {
-  width: 2px;
-  border-right: 2px solid darkolivegreen;
-  bottom: 15px;
+  border-right: 2px solid black;
+  width: 51%;
+  margin-top: -40px;
 }
 
 .fa-instagram {
-  bottom: 20%;
-  left: 15%;
   color: red;
 }
 
 #instagram-stem {
-  height: 18%;
-  left: 23%;
+  height: 10vh;
 }
 
 .fa-linkedin {
-  bottom: 25%;
-  left: 40%;
-  color: orange;
-}
-
-#linkedin-stem {
-  height: 23%;
-  left: 48%;
-}
-
-.fa-envelope {
-  bottom: 22%;
-  left: 66%;
   color: blue;
 }
 
+#linkedin-stem {
+  height: 22vh;
+}
+
+.fa-envelope {
+  color: orange;
+}
+
 #envelope-stem {
-  height: 20%;
-  left: 75%;
+  height: 16vh;
 }
 
 .project-head {
@@ -238,185 +226,12 @@ body div {
   }
 
   #hero-info {
+    margin-top: 25px;
     margin-left: 50px;
     width: 100%;
   }
 
-  .fab,
-  .far {
-    font-size: 120px;
-  }
-  
-  .fa-instagram {
-    bottom: 35%;
-    left: 20%;
-    color: red;
-  }
-  
-  #instagram-stem {
-    height: 33%;
-    left: 26%;
-  }
-  
-  .fa-linkedin {
-    bottom: 30%;
-    left: 44%;
-    color: orange;
-  }
-  
-  #linkedin-stem {
-    height: 28%;
-    left: 50%;
-  }
-  
-  .fa-envelope {
-    bottom: 45%;
-    left: 66%;
-    color: blue;
-  }
-  
-  #envelope-stem {
-    height: 43%;
-    left: 73%;
-  }
-}
-
-/* large CSS */
-
-@media (min-width: 992px) {
-  .grass {
-    padding: 30px 30px !important;
-  }
-  .hero {
-    height: calc(100vh - 60px);
-  }
-
-  .stems {
-    bottom: 30px;
-  }
-
-  #tourluxe-ray {
-    height: 30px;
-  }
-  
-  #kuno-ray {
-    height: 100px;
-  }
-  
-  #hero-info {
-    margin-left: 0;
-    width: 100%;
-    margin-top: -30%;
-  }
-  
-  .fa-instagram {
-    bottom: 17%;
-    left: 25%;
-    color: red;
-  }
-  
-  #instagram-stem {
-    height: 12%;
-    left: 30%;
-  }
-  
-  .fa-linkedin {
-    bottom: 27%;
-    left: 47%;
-    color: orange;
-  }
-  
-  #linkedin-stem {
-    height: 22%;
-    left: 52%;
-  }
-  
-  .fa-envelope {
-    bottom: 7%;
-    left: 65%;
-    color: blue;
-  }
-  
-  #envelope-stem {
-    height: 2%;
-    left: 71%;
-  }
-}
-
-
-/* x-large CSS */
-@media (min-width: 1200px) {
-  .grass {
-    padding: 40px 40px !important;
-  }
-  .hero {
-    height: calc(100vh - 80px);
-  }
-
-  .stems {
-    bottom: 40px;
-  }
-
-  .fa-instagram {
-    bottom: 25%;
-    left: 25%;
-    color: red;
-  }
-  
-  #instagram-stem {
-    height: 20%;
-    left: 29%;
-  }
-  
-  .fa-linkedin {
-    bottom: 35%;
-    left: 47%;
-    color: orange;
-  }
-  
-  #linkedin-stem {
-    height: 30%;
-    left: 51%;
-  }
-  
-  .fa-envelope {
-    bottom: 15%;
-    left: 65%;
-    color: blue;
-  }
-  
-  #envelope-stem {
-    height: 10%;
-    left: 70%;
-  }
-}
-
-/* xx-large CSS */
-
-@media (min-width: 1200px) {
-  .grass {
-    padding: 60px 60px !important;
-  }
-  .hero {
-    height: calc(100vh - 120px);
-  }
-  
-  .stems {
-    bottom: 60px;
-  }
-
-  #instagram-stem {
-    height: 18%;
-    left: 29%;
-  }
-  
-  #linkedin-stem {
-    height: 28%;
-    left: 51%;
-  }
-  
-  #envelope-stem {
-    height: 9%;
-    left: 70%;
+  .flowers {;
+    min-height: calc(100vh - 305px);
   }
 }
