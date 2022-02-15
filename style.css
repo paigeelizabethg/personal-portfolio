@@ -26,32 +26,29 @@ body div {
 
 .hero {
 border-radius: 20px;
+background-image: linear-gradient(to bottom, #e6f9ff, #f7fdff, #FFFFFF);
+height: calc(100vh - 30px);
+text-align: center;
 }
 
 .dirt {
   background-image: url(./images/marta-pawlik-Wr2Ss0fdeWU-unsplash.jpg);
+  min-height: 50vh;
 }
 
 .grass {
   background-image: url(./images/jake-nackos-C2PCa6DhlYE-unsplash.jpg);
-}
-
-.hero {
-  background-color: white;
-  height: calc(100vh - 30px);
-  text-align: center;
+  min-height: 150vh;
 }
 
 .hero h1,
 .hero h2 {
-  word-spacing: 30px;
-  letter-spacing: 10px;
+  word-spacing: 10px;
   color: black;
 }
 
-
 .hero h2 {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 40px;
 }
 
@@ -100,28 +97,17 @@ border-radius: 20px;
 
 
 .navbar-toggler {
-  padding: 10px 20px !important;
-  width: 200px;
+  border-bottom-right-radius: 20px !important;
   border-bottom-left-radius: 20px !important;
-  border-top-right-radius: 20px !important;
-  border-bottom-right-radius: 0 !important;
-  border-top-left-radius: 0 !important;
-  border: 5px solid green !important;
-  background-color: rgb(0,255,0,.2) !important;
-  position: absolute !important;
-  text-align: left !important;
-  bottom: -15px;
-  left: -15px;
+  border-right: 5px solid yellow !important;
+  border-left: 5px solid yellow !important;
+  border-bottom: 5px solid yellow !important;
+  padding: 15px 40px !important;
+  margin-top: -23px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* flowers */
-
-
-#navbars {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-}
-
 .fab,
 .far {
   font-size: 80px;
@@ -130,125 +116,108 @@ border-radius: 20px;
 
 .fa-linkedin {
   bottom: 100px;
-  right: 235px;
+  left: 30px;
   color: rgb(255,192,203,.7);
 }
 
 .fa-instagram {
   bottom: 200px;
-  right: 135px;
+  right: calc(50% - 33px);
   color: rgb(0,204,0,.7);
 }
 
 .fa-envelope {
   bottom: 150px;
-  right:10px;
+  right:30px;
   color: rgb(255,0,0,.7);
 }
 
 #linkedin-stem {
-  height: 100px;
-  right: 268px;
+  height: 80px;
+  left: 68px;
 }
 
 #instagram-stem {
-  right: 168px;
-  height: 200px;
+  right: 50%;
+  height: 180px;
 }
 
 #envelope-stem {
-  height: 150px;
-  right: 50px;
+  height: 130px;
+  right: 70px;
 }
 
 .stems {
   border-right: 2px solid black;
   position: absolute;
-  bottom: -15px;
-}
-
-#kuno-flower,
-#tourluxe-flower {
-  font-size: 30px;
-  width: 100px;
-  position: absolute;
-  border-radius: 100px;
-  padding: 20px 20px;
-}
-
-#tourluxe-flower {
-  bottom: 200px;
-  left: 0;
-  border: 5px solid blue;
-  background-color: rgb(0,0,255,.2);
-}
-
-#tourluxe-stem {
-  height: 165px;
-  left: 50px;
-  bottom: 35px;
-}
-
-#kuno-flower {
-  bottom: 80px;
-  left: 80px;
-  border: 5px solid orange;
-  background-color: rgb(255,128,0,.2);
-}
-
-#kuno-stem {
-  height: 45px;
-  left: 130px;
-  bottom: 35px;
+  bottom: 15px;
+  width: 2px;
+  border-radius: 10px;
 }
 
 small {
   font-size: 20px !important;
 }
 
-/* medium CSS */
-@media (min-width: 768px) {
-  .fab,
-.far {
-  font-size: 100px;
+/* small CSS */
+@media (min-width: 576px) {
+  .hero h2 {
+    padding-top: 25px;
+    padding-bottom: 40px;
+  }
+
+  .fa-linkedin {
+    left: 100px;
+  }
+  
+  .fa-envelope {
+    right:100px;
+  }
+  
+  #linkedin-stem {
+    left: 138px;
+  }
+  
+  #envelope-stem {
+    right: 140px;
+  }
 }
 
-small {
+
+
+/* medium CSS */
+@media (min-width: 768px) {
+  .hero-element {
+    height: 100%;
+  }
+  
+  .navbar {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .navbar-toggler {
+    border-bottom-right-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-right: 5px solid yellow !important;
+    border-left: 5px solid yellow !important;
+    border-bottom: 5px solid yellow !important;
+    padding: 15px 40px !important;
+    position: absolute !important;
+    top: 0;
+    right: 0;
+  }
+  
+  .fab,
+  .far {
+  font-size: 100px;
+  }
+
+  small {
   color: grey;
   text-transform: uppercase;
   font-size: 18px !important;
-}
-
-
-#kuno-flower,
-#tourluxe-flower {
-  font-size: 30px;
-  width: 140px;
-  position: absolute;
-  border-radius: 100px;
-  padding: 30px 20px;
-}
-
-  #tourluxe-flower {
-    bottom: 150px;
-    left: 20px;
-  }
-  
-  #tourluxe-stem {
-    height: 150px;
-    left: 90px;
-    bottom: -15px;
-  }
-  
-  #kuno-flower {
-    bottom: 100px;
-    left: 170px;
-  }
-  
-  #kuno-stem {
-    height: 100px;
-    left: 240px;
-    bottom: -15px
   }
 
   .fa-linkedin {
