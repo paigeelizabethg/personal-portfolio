@@ -49,8 +49,8 @@ body div {
 
 .navbar-toggler {
   border: 3px solid yellow !important;
-  padding: 40px 25px !important;
-  border-radius: 80px !important;
+  padding: 48px 25px !important;
+  border-radius: 90px !important;
   box-shadow:
   0px 0px 3.4px rgba(255, 255, 0, 0.348),
   0px 0px 9.3px rgba(255, 255, 0, 0.5),
@@ -64,7 +64,7 @@ body div {
 }
 .navbar-collapse {
   position: absolute;
-  top: 135px;
+  top: 155px;
 }
 
 .rays {
@@ -83,6 +83,8 @@ body div {
 
 .sun-spots {
  border-radius: 70px;
+ background-color: white;
+ border: 2px solid #e6f9ff;
 }
 
 #tourluxe-spot {
@@ -93,9 +95,19 @@ body div {
   padding: 30px 0px;
 }
 
+#tourluxe-spot:hover,
+#kuno-spot:hover {
+  box-shadow:
+  0px 0px 3.4px rgba(158, 242, 255, 0.348),
+  0px 0px 9.3px rgba(158, 242, 255, 0.5),
+  0px 0px 22.3px rgba(158, 242, 255, 0.652),
+  0px 0px 74px rgba(158, 242, 255, 1);
+}
+
 #hero-info {
   margin-top: 120px;
   width: 100%;
+  height: 100%;
 }
 
 #hero-info h1 {
@@ -110,8 +122,8 @@ body div {
   padding-left: 30px;
   padding-right: 30px;
   font-size: 70px;
-  margin-bottom: -15px;
-  min-height: calc(100vh - 445px);
+  margin-bottom: -30px;
+  min-height: calc(100vh - 243px) !important;
 }
 
 .stems {
@@ -120,11 +132,11 @@ body div {
   margin-top: -40px;
 }
 
-.fa-instagram {
+.fa-github {
   color: red;
 }
 
-#instagram-stem {
+#github-stem {
   height: 10vh;
 }
 
@@ -142,6 +154,12 @@ body div {
 
 #envelope-stem {
   height: 16vh;
+}
+
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-envelope:hover {
+  color: #a4f22e;
 }
 
 .project-head {
@@ -202,15 +220,12 @@ body div {
   .projects-nav {
     justify-content: end !important;
     margin-top: 50px;
-    margin-right: 50px !important;
-  }
-  .navbar-toggler {
-    padding: 80px 65px !important;
-    border-radius: 100px !important;
+    margin-right: 15vw !important;
   }
 
   .navbar-collapse {
-    top: 250px;
+    top: 180px;
+    right: 13.5vw;
   }
   
   .rays {
@@ -218,20 +233,19 @@ body div {
   }
 
   #tourluxe-ray {
-    height: 50px;
+    height: 30px;
   }
   
   #kuno-ray {
-    height: 120px;
+    height: 100px;
   }
 
   #hero-info {
-    margin-top: 25px;
-    margin-left: 50px;
     width: 100%;
+    margin-top: 0;
   }
 
-  .flowers {;
+  .flowers {
     min-height: calc(100vh - 305px);
   }
 }
